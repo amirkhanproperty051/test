@@ -2,6 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/property051/public_html/dev.property051.com
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp R * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
